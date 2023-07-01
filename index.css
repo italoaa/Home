@@ -1,0 +1,13 @@
+body {
+    background-color: #F1E3C8;
+}
+
+#Background {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-image: url("./cartographer.png");
+    opacity: 30%;
+}
