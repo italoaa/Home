@@ -1,0 +1,6 @@
+#+title: Readme
+
+There are many things that need to be done
+
+** TODO Plan all elements inside nav
+This means having all the elements that will be fading in and out in the nav element listed so that we can have =fadeOutAll= function so we can switch the content inside.

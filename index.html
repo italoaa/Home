@@ -9,27 +9,36 @@
 
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link rel="stylesheet" href="index.css" type="text/css" media="screen"/>
+        <link rel="stylesheet" href="animations.css" type="text/css" media="screen"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <link
+
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+        <link href="css/hover.css" rel="stylesheet" media="all">
         <!-- Place favicon.ico in the root directory -->
 
     </head>
     <body>
         <div id="Background">
-
         </div>
-            <div id="Box">
+        </div>
+        <div class="animate__animated animate__backInLeft animate__slow" id="Box">
                 <div id="Title">
-                    <h1>Italo Amaya</h1>
-                    <p>An aspiring cybersecurity researcher</p>
+                    <h1 class="animate__animated animate__fadeIn animate__slower animate__delay-2s">Italo Amaya</h1>
+                    <p class="animate__animated animate__fadeIn animate__slower animate__delay-3s">An aspiring cybersecurity researcher</p>
                 </div>
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About Me</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Recipes</a>
-                    <a href="#">Projects</a>
-                    <a href="#">Curriculum Vitae</a>
+                <nav class="animate__animated animate__fadeInRight animate__fast animate__delay-2s">
+                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="0">Home</button>
+                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="1">About Me</button>
+                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="2">Blog</button>
+                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="3">Recipes</button>
+                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="4">Projects</button>
+                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="5">Curriculum Vitae</button>
                 </nav>
             </div>
 
     </body>
+    <script src="index.js"></script>
 </html>
