@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="animations.css" type="text/css" media="screen"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <link
-
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
@@ -25,17 +24,19 @@
         </div>
         <div class="animate__animated animate__backInLeft animate__slow" id="Box">
                 <div id="Title">
-                    <h1 class="animate__animated animate__fadeIn animate__slower animate__delay-2s">Italo Amaya</h1>
-                    <p class="animate__animated animate__fadeIn animate__slower animate__delay-3s">An aspiring cybersecurity researcher</p>
+                    <h1 id="name" class="animate__animated animate__fadeIn animate__slower animate__delay-2s">Italo Amaya</h1>
+                    <p id="quote" class="animate__animated animate__fadeIn animate__slower animate__delay-3s">An aspiring cybersecurity researcher</p>
                 </div>
                 <nav class="animate__animated animate__fadeInRight animate__fast animate__delay-2s">
                     <button style="display: none;" class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right home" id="0">Back</button>
-                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right about" id="1">About Me</button>
-                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right blog" id="2">Blog</button>
-                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right recipes" id="3">Recipes</button>
-                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="4">Projects</button>
+                    <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="1">About Me</button>
+                    <!-- <a href="blog.html" class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="2">Blog</a>
+                         <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="3">Recipes</button>
+                         <button class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="4">Projects</button> -->
                     <a class="animate__animated animate__fadeInRight animate__slow animate__delay-2s btn from-right" id="5" href="curriculum-vitae.pdf">Curriculum Vitae</a>
-                    <div class="animate__animated animate__slow" id="content" style="display:none;"></div>
+                    <div class="animate__animated animate__slow" id="content" style="display:none;">
+                        <p style="display:none;" id="about">I am a computer Science Student in the University of Leeds. My goal is to work in the field of Cybersecurity. On the side I like to cook and program little projects.</p>
+                    </div>
                 </nav>
             </div>
 

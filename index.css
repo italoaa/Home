@@ -1,5 +1,7 @@
 body {
     background-color: #F1E3C8;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 #Background {
@@ -103,4 +105,9 @@ nav button, nav a, #btn {
     font-weight: 400;
     line-height: normal;
     /* text-decoration-line: underline; */
+}
+
+#content {
+    height: 50%;
+    overflow: hidden;
 }
