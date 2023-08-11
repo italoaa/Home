@@ -1,0 +1,87 @@
+
+#logo {
+    color: rgba(57, 61, 50, 0.60);
+    text-align: right;
+    font-family: Big Caslon;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 51.9%; /* 49.824px */
+    letter-spacing: 1.44px;
+
+    /* layout */
+    top: 30px;
+    left: 11px;
+    position: absolute;
+
+}
+
+#blog {
+    /* Layout */
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 60vw;
+    height: 60vh;
+    padding: 10px 82px 10px 34px;
+
+    /* Stle */
+    background: #393D32;
+    margin: auto;
+}
+
+
+#Box {
+    border: 17px solid rgba(57, 61, 50, 0.30);
+    height: 92vh;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#blog h2 {
+    color: #F1E3C8;
+    font-size: 64px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-family: DM;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.56px;
+
+    /* style */
+    margin: auto;
+}
+
+#posts {
+    color: #F1E3C8;
+    font-size: 40px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-family: DM;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -2.56px;
+
+    /* style */
+    margin: auto;
+}
+
+#post {
+    margin: 30px;
+}
+
+#post h3 {
+    font-size: 40px;
+    margin: 10px;
+    letter-spacing: -1.56px;
+}
+
+#post h4 {
+    font-size: 30px;
+    letter-spacing: -0.56px;
+    margin: 10px;
+}
