@@ -47,7 +47,6 @@
     right: 0;
 }
 
-.from-right:hover:before,
-.from-right:hover:after {
+s.FROM-right:hover:before, .from-right:hover:after {
     width: 100%;
-}
+}s

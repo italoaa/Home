@@ -45,7 +45,11 @@ nav {
     margin-left: 5%;
 }
 
-nav button {
+home {
+    font-size: 2.5vw
+}
+
+nav button, nav a, #btn {
    color: #F1E3C8;
    font-size: 3vw;
    text-decoration: none;
@@ -56,6 +60,16 @@ nav button {
    font-weight: 400;
    line-height: normal;
    letter-spacing: -2.56px;
+}
+
+#content {
+    color: #F1E3C8;
+    font-family: DM Serif Display;
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.36px;
 }
 
 #Title {
