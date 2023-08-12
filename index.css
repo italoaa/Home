@@ -115,7 +115,7 @@ nav button, nav a, #btn {
 @media only screen and (max-width: 750px) {
     #Box {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 2fr;
     }
 
     #Title {
@@ -131,19 +131,19 @@ nav button, nav a, #btn {
     }
 
     nav button, nav a, #btn {
-        font-size: 3vh;
+        font-size: 5vh;
     }
 
     nav {
         /* Layout */
-        width: 40vw;
-        height: 30vh;
+        width: 70vw;
+        height: 50vh;
         margin-left: auto;
         margin-top: 5px;
-        padding: 10px 82px 10px 34px;
+        padding: 10px 10px 10px 20px;
     }
 
     #content {
-            font-size: 1.7vh;
+            font-size: 1.7rem;
     }
 }

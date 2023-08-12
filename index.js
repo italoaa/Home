@@ -6,6 +6,8 @@ function goHome() {
   $('nav button, nav a').show();
   $('#0').hide();
 
+  $('#1').css("text-decoration", "none"); // add an underline to signify the title
+
   // Hide the content
   $('#content').hide();
   $('#about').hide();
@@ -21,9 +23,10 @@ function about() {
   $('#0').show();
   $('#0').addClass("animate__fadeInLeft");
 
-  // show the aobut content
+  // show the about content
   $('#content').show();
   $('#about').show();
+  $('#1').css("text-decoration", "underline"); // add an underline to signify the title
   $('#content').addClass("animate__fadeInRight");
 }
 
