@@ -1,6 +1,8 @@
-#+title: Readme
+#+title: Personal Website
 
-There are many things that need to be done
-
-** TODO Plan all elements inside nav
-This means having all the elements that will be fading in and out in the nav element listed so that we can have =fadeOutAll= function so we can switch the content inside.
+This is my personal website where I will be able to post about me and what is up with my life.
+* List of TODOs
+** TODO Add links to github, LinkedIn and more
+** TODO Continue the blog Template
+** TODO Add Recipes
+** TODO Add Projects
