@@ -116,6 +116,7 @@ nav button, nav a, #btn {
     #Box {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 2fr;
+        margin: 5px;
     }
 
     #Title {
@@ -136,14 +137,15 @@ nav button, nav a, #btn {
 
     nav {
         /* Layout */
-        width: 70vw;
+        width: 60vw;
+        gap: 40px
         height: 50vh;
         margin-left: auto;
         margin-top: 5px;
-        padding: 10px 10px 10px 20px;
+        padding: 0px 10px 0px 10px;
     }
 
     #content {
-            font-size: 1.7rem;
+            font-size: 1.3rem;
     }
 }
