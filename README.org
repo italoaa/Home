@@ -2,7 +2,7 @@
 
 This is my personal website where I will be able to post about me and what is up with my life.
 * List of TODOs
-** TODO Add links to github, LinkedIn and more
+** DONE Add links to github, LinkedIn and more
 ** TODO Continue the blog Template
 ** TODO Add Recipes
 ** TODO Add Projects

@@ -51,6 +51,17 @@ home {
     font-size: 2.5vw
 }
 
+#icons {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.icon {
+    width: 5vw;
+    margin: 10px;
+}
+
 nav button, nav a, #btn {
    color: #F1E3C8;
    font-size: 3vw;
@@ -147,5 +158,9 @@ nav button, nav a, #btn {
 
     #content {
             font-size: 1.3rem;
+    }
+
+    .icon {
+        width: 5vh;
     }
 }

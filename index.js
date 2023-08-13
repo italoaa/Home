@@ -44,7 +44,7 @@ function goto(id) {
 
 
 
-$('nav button, nav a').on("click", function (event) {
+$('.btn').on("click", function (event) {
   // Remove delays for animations
   $('nav button, nav a').removeClass("animate__delay-2s");
   $('#name').removeClass("animate__delay-2s");
